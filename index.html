@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    
+    <head><title>Home</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <!-- This links three different font types from Google Fonts; heading, subheading, and paragraph) -->
+        <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+           <!-- This links a responsive nav icon for smaller screens (<1000px) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+       <header>
+       <!-- This codes the nav bar -->
+       <div class="navbar" id="myTopnav">
+            <a href="index.html"><img class="logo" src="img/logo.png" height="100" title="logo" alt="logo"></a>
+            <a class="main" href="running.html">Running</a>
+            <a class="main" href="biking.html">Biking</a>
+            <a class="main" href="more.html">More</a>
+            <a class="other" href="experiences.html">Experiences</a>
+            <!-- This codes the responsive nav icon (burger) -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    
+        <script type="application/javascript">
+            /* This JavaScript moves between adding and removing the "responsive" class to the topnav when the user clicks on the icon */
+            function myFunction() {
+               var x = document.getElementById("myTopnav");
+               if (x.className === "navbar") {
+                   x.className += " responsive";
+                } else {
+                   x.className = "navbar";
+                }
+            }
+        </script>
+        </header>
+        
+        <div class="maincontent">
+            <h1>W e l c o m e !</h1>
+            <p>Adventure Racing is a multisport that is made up of many disciplines i.e. running, biking, kayaking, rock climbing, abseiling, and problem solving. It is a truly inspirational sport, which ties together teamwork, an appreciation of nature, and just having fun! It teaches you not only practical skills for the outdoors but skills that can be applied throughout every aspect of life. This is why it is so important for younger generations to utilise the sport and gain such appropriate skills to be able to become the leaders of tomorrow. Adventure Racing is not just a physical sport but also a mental sport, in which you must constantly push your own limits.</p>
+        
+            <br>
+ 
+            <h2>Students Perspective</h2>
+            <p>Iliarne Watson is a Year 13 Adventure Racer and describes her experience competing in the 2017 Hillary Challenge Final that took place at Tongariro National Park...</p>
+        
+            <p>“This experience revealed strengths and weaknesses that I never knew I had, gave me friends that I will have for the rest of my life and helped me to identify and push through what I thought was my breaking point.”</p>
+        
+            <p>*Please be aware that the logo of this website acts as a link back to the homepage.</p>
+       </div>
+    </body>
+    
+</html>

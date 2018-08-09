@@ -1,0 +1,131 @@
+/* The following displays a background color on the home page */
+html {
+    background-color: rgb(9, 9, 9);
+    min-width: 400px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+/* This styles the links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Strait', sans-serif;
+}
+
+/* This styles the color of the links inside the nav seperatly as the 'Experiences' link has a different color to the others */
+.main {
+    color: rgb(91, 219, 148);
+}
+
+.other {
+    color: rgb(54, 142, 116);
+}
+
+.main,
+.other {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* This changes the background color and color of the text links on hover */
+.main:hover,
+.other:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+/* This hides the icon that should open/close the navbar on smaller screens (<1000px) */
+.navbar .icon {
+    display: none;
+}
+
+/* This means that when the screen is less than 1000px wide, all links are hiden, except for the logo (home page link) and the icon (link that opens/closes the navbar */
+@media screen and (max-width: 1000px) {
+  .navbar a:not(:first-child) {
+      display: none;
+    }
+    
+  .navbar a.icon {
+    float: right;
+    display: block;
+    margin-top: 40px;
+    color: rgb(0,0,0);
+  }
+
+/* This means that using JavaScript, the "responsive" class is added to the navbar when the user clicks on the icon. Simply, this class makes the navbar appear appropriately on smaller screens (links are vertical as opposed to horizontal) */
+  .navbar.responsive {
+      position: relative;
+    }
+    
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+/* This vertically 'stacks' the images */
+  img.horizontals {
+    width: 98%;
+    }
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Faster One', cursive;
+    padding: 1%;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Strait', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 16px;
+}
+
+/* This gives the main content i.e. text and imagery a background colour that makes it appear layered on top of the background color */
+.maincontent {
+    background-color: rgb(21, 27, 7);
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.horizontals {
+    width: 48%;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(91, 219, 148);
+}
+
+/* This displays a banner image below the navbar that takes up 100% of the screen width and hence adjusts according to screen size */
+.banner {
+    width: 100%;
+}
+
+/* This styles the ul */
+ul {
+    color: rgb(255, 255, 255);
+    font-family: 'Mukta Malar', sans-serif;
+}
