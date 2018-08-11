@@ -15,9 +15,9 @@ html {
     float: left;
     display: block;
     text-align: center;
-    padding: 1% 2%;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 25px;
     font-family: 'Strait', sans-serif;
 }
 
