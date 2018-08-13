@@ -1,7 +1,7 @@
 /* The following displays a background color on the home page */
 html {
     background-color: rgb(9, 9, 9);
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .navbar {
@@ -86,7 +86,7 @@ html {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Faster One', cursive;
     padding: 1%;
 }
