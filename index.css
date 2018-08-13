@@ -57,8 +57,9 @@ html {
   .navbar a.icon {
     float: right;
     display: block;
-    margin-top: 40px;
+    margin-top: 30px;
     color: rgb(0,0,0);
+    font-size: 40px;
   }
 
 /* This means that using JavaScript, the "responsive" class is added to the navbar when the user clicks on the icon. Simply, this class makes the navbar appear appropriately on smaller screens (links are vertical as opposed to horizontal) */
