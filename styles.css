@@ -7,9 +7,6 @@ html {
 .navbar {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    position: fixed; /* This makes the navbar remain in the screen (fixes it) */
-    top: 0; /* This makes the navbar at the top of the page */
-    width: 100%;
 }
 
 /* This styles the links inside the navbar */
@@ -126,7 +123,7 @@ p {
 /* This displays a banner image below the navbar that takes up 100% of the screen width and hence adjusts according to screen size */
 .banner {
     width: 100%;
-    margin-top: 135px;
+    margin-top: 5%;
 }
 
 /* This styles the ul */

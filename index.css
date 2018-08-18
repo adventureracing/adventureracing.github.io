@@ -8,9 +8,6 @@ html {
 .navbar {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    position: fixed; /* This makes the navbar remain in the screen (fixes it) */
-    top: 0; /* This makes the navbar at the top of the page */
-    width: 100%;
 }
 
 /* This styles the links inside the navbar */
@@ -107,7 +104,7 @@ p {
 .maincontent {
     background-color: rgb(21, 27, 7);
     padding: 1%;
-    margin-top: 250px;
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
