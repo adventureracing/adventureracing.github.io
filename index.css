@@ -8,6 +8,7 @@ html {
 .navbar {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    width: 100%;
 }
 
 /* This styles the links inside the navbar */
@@ -104,7 +105,7 @@ p {
 .maincontent {
     background-color: rgb(21, 27, 7);
     padding: 1%;
-    margin-top: 5%;
+    margin-top: 250px;
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
