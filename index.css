@@ -14,13 +14,11 @@ html {
 /* This styles the links inside the navbar */
 .navbar a {
     float: left;
-    float: left;
     display: block;
     text-align: center;
     padding: 1% 2%;
     text-decoration: none;
-    font-size: 25px;
-    font-family: 'Strait', sans-serif;
+    font: 25px 'Strait', sans-serif;
 }
 
 /* This styles the color of the links inside the nav seperatly as the 'Experiences' link has a different color to the others */
@@ -67,7 +65,7 @@ html {
 
 /* This means that using JavaScript, the "responsive" class is added to the navbar when the user clicks on the icon. Simply, this class makes the navbar appear appropriately on smaller screens (links are vertical as opposed to horizontal) */
   .navbar.responsive {
-      position: relative;
+    position: relative;
     }
     
   .navbar.responsive a.icon {
@@ -85,29 +83,23 @@ html {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 34px;
-    font-family: 'Faster One', cursive;
+    font: 34px 'Faster One', cursive;
     padding: 1%;
 }
 
 h2 {
     color: rgb(255, 255, 255);
-    font-family: 'Strait', sans-serif;
-    font-size: 25px;
+    font: 25px 'Strait', sans-serif;
 }
 
 p {
     color: rgb(255, 255, 255);
-    font-family: 'Mukta Malar', sans-serif;
-    font-size: 16px;
+    font: 16px 'Mukta Malar', sans-serif;
 }
 
 /* This gives the main content i.e. text and imagery a background colour that makes it appear layered on top of the background image */
 .maincontent {
     background-color: rgb(21, 27, 7);
     padding: 1%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 10% 5% 10%;
 }

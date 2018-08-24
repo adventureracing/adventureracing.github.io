@@ -17,8 +17,7 @@ html {
     text-align: center;
     padding: 1% 2%;
     text-decoration: none;
-    font-size: 25px;
-    font-family: 'Strait', sans-serif;
+    font: 25px 'Strait', sans-serif;
 }
 
 /* This styles the color of the links inside the nav seperatly as the 'Experiences' link has a different color to the others */
@@ -51,7 +50,7 @@ html {
 /* This means that when the screen is less than 1000px wide, all links are hiden, except for the logo (home page link) and the icon (link that opens/closes the navbar */
 @media screen and (max-width: 1000px) {
   .navbar a:not(:first-child) {
-      display: none;
+    display: none;
     }
     
   .navbar a.icon {
@@ -88,31 +87,25 @@ html {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 34px;
-    font-family: 'Faster One', cursive;
+    font: 34px 'Faster One', cursive;
     padding: 1%;
 }
 
 h2 {
     color: rgb(255, 255, 255);
-    font-family: 'Strait', sans-serif;
-    font-size: 25px;
+    font: 25px 'Strait', sans-serif;
 }
 
 p {
     color: rgb(255, 255, 255);
-    font-family: 'Mukta Malar', sans-serif;
-    font-size: 16px;
+    font: 16px 'Mukta Malar', sans-serif;
 }
 
 /* This gives the main content i.e. text and imagery a background colour that makes it appear layered on top of the background color */
 .maincontent {
     background-color: rgb(21, 27, 7);
     padding: 1%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 10% 5% 10%;
 }
 
 .horizontals {
