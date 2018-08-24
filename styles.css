@@ -109,10 +109,8 @@ p {
 }
 
 .horizontals {
-    width: 48%;
-    border-style: solid;
-    border-width: medium;
-    border-color: rgb(91, 219, 148);
+    width: 49%;
+    border: solid medium rgb(91, 219, 148);
 }
 
 /* This displays a banner image below the navbar that takes up 100% of the screen width and hence adjusts according to screen size */
