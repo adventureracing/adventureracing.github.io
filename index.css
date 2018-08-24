@@ -51,7 +51,7 @@ html {
 /* This means that when the screen is less than 700px wide, all links are hiden, except for the logo (home page link) and the icon (link that opens/closes the navbar */
 @media screen and (max-width: 1000px) {
   .navbar a:not(:first-child) {
-      display: none;
+    display: none;
     }
     
   .navbar a.icon {

@@ -64,7 +64,7 @@ html {
 
 /* This means that using JavaScript, the "responsive" class is added to the navbar when the user clicks on the icon. Simply, this class makes the navbar appear appropriately on smaller screens (links are vertical as opposed to horizontal) */
   .navbar.responsive {
-      position: relative;
+    position: relative;
     }
     
   .navbar.responsive a.icon {
